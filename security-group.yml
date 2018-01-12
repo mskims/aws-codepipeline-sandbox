@@ -7,7 +7,7 @@ Resources:
       VpcId: vpc-cd8c55a5
       SecurityGroupIngress:
         - IpProtocol: '-1'
-          SourceSecurityGroupId: 0.0.0.0/0
+          CidrIp: 0.0.0.0/0
       SecurityGroupEgress:
         - IpProtocol: '-1'
           CidrIp: 0.0.0.0/0
